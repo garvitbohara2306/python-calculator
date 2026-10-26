@@ -22,3 +22,8 @@ from calculator import add, divide
 print(add(5, 3))    # Output: 8
 print(divide(10, 2)) # Output: 5.0
 Created as my first Git and GitHub practice project using Python.
+
+## What I learned
+- Basic Python functions
+- Unit testing with unittest
+- Git and GitHub workflow
