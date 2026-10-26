@@ -3,86 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Information Science Engineering Student</title>
+    <meta name="description" content="Professional portfolio of Garvit Bohara, a 2nd-year Information Science Engineering student specializing in Software Development, DSA, and AI/ML.">
+    <title>Garvit Bohara | Information Science Engineering Student</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar" aria-label="Main Navigation">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header class="navbar">
         <div class="container navbar-container">
-            <div class="logo">My Portfolio</div>
-            <button class="burger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+            <a href="#home" class="logo" aria-label="Garvit Bohara Portfolio Home">GB</a>
+            <button class="burger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
             </button>
-            <ul id="nav-links" class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <nav id="nav-links" class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main>
-        <section id="home" class="hero">
+    <main id="main-content">
+        <section id="home" class="hero section-reveal">
             <div class="container">
-                <h1>Information Science Engineering Student</h1>
-                <p>Building solutions through data and code.</p>
+                <p class="hero-intro">Hi, I'm</p>
+                <h1 class="hero-name">Garvit Bohara</h1>
+                <p class="hero-tagline">2nd-Year BTech Student in Information Science Engineering</p>
+                <p class="hero-interests">Passionate about <span>Software Development</span>, <span>Data Structures & Algorithms</span>, and <span>AI/ML</span>.</p>
                 <div class="hero-btns">
-                    <a href="#projects" class="btn">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="section section-reveal">
             <div class="container">
-                <h2>About Me</h2>
-                <p>I am a second-year student exploring the intersections of information science and technology. I am building a foundation in data analysis and system development.</p>
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a dedicated Information Science Engineering student currently in my second year of BTech. My core focus lies in developing efficient software and mastering complex problem-solving through Data Structures and Algorithms.</p>
+                        <p>I am particularly interested in the intersection of traditional software engineering and modern AI/ML technologies, seeking to build intelligent systems that solve real-world problems.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="section section-reveal">
             <div class="container">
-                <h2>Skills</h2>
-                <ul class="skills-list">
-                    <li>Python</li>
-                    <li>Data Structures</li>
-                    <li>Information Systems Concepts</li>
-                    <li>Web Basics (HTML/CSS/JS)</li>
-                </ul>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Languages & Core</h3>
+                        <ul class="skills-list">
+                            <li>Python (Intermediate)</li>
+                            <li>Data Structures & Algorithms</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Information Systems Concepts</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Web Development</h3>
+                        <ul class="skills-list">
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Responsive Web Design</li>
+                            <li>Git & GitHub Version Control</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="section section-reveal">
             <div class="container">
-                <h2>Projects</h2>
+                <h2 class="section-title">Projects</h2>
                 <div class="project-grid">
                     <article class="card">
-                        <h3>Python Calculator</h3>
-                        <p>A CLI-based calculator built for command-line efficiency.</p>
-                        <a href="https://github.com/garvitbohara2306/python-calculator" class="project-link" target="_blank" rel="noopener noreferrer">View Repository</a>
+                        <div class="card-body">
+                            <span class="project-category">Research & Detection</span>
+                            <h3>RGB-D Cuboid Detection</h3>
+                            <p class="status-pending">Status: Details Pending</p>
+                            <p>An exploration into computer vision and spatial analysis using RGB-Depth data. Implementation details and results are currently being documented.</p>
+                        </div>
                     </article>
+
                     <article class="card">
-                        <h3>Explosive Detection System</h3>
-                        <p>Exploration of image analysis techniques for security applications.</p>
-                        <span class="project-placeholder">Repository link to be added</span>
+                        <div class="card-body">
+                            <span class="project-category">Utility Tool</span>
+                            <h3>Python Calculator</h3>
+                            <p>A command-line interface calculator demonstrating clean code principles and unit testing implementation.</p>
+                            <div class="card-footer">
+                                <a href="https://github.com/garvitbohara2306" class="project-link" target="_blank" rel="noopener noreferrer">View Repository</a>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="section section-reveal">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Reach out to connect or discuss opportunities.</p>
-                <p>Email: [Insert Email Address]</p>
-                <p>LinkedIn: [Insert LinkedIn Profile URL]</p>
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <p>I'm always open to discussing new projects, internship opportunities, or collaborations in Software Development and AI/ML.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:garvitbohara2306@gmail.com" class="contact-item">
+                            <span class="label">Email:</span>
+                            <span class="value">garvitbohara2306@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/garvitbohara2306" class="contact-item" target="_blank" rel="noopener noreferrer">
+                            <span class="label">GitHub:</span>
+                            <span class="value">github.com/garvitbohara2306</span>
+                        </a>
+                        <div class="contact-item">
+                            <span class="label">LinkedIn:</span>
+                            <span class="value">[Placeholder]</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Garvit Bohara. Information Science Engineering Student.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
