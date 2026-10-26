@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Information Science Engineering Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" aria-label="Main Navigation">
+        <div class="container navbar-container">
+            <div class="logo">My Portfolio</div>
+            <button class="burger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Information Science Engineering Student</h1>
+                <p>Building solutions through data and code.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a second-year student exploring the intersections of information science and technology. I am building a foundation in data analysis and system development.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>Data Structures</li>
+                    <li>Information Systems Concepts</li>
+                    <li>Web Basics (HTML/CSS/JS)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="card">
+                        <h3>Python Calculator</h3>
+                        <p>A CLI-based calculator built for command-line efficiency.</p>
+                        <a href="https://github.com/garvitbohara2306/python-calculator" class="project-link" target="_blank" rel="noopener noreferrer">View Repository</a>
+                    </article>
+                    <article class="card">
+                        <h3>Explosive Detection System</h3>
+                        <p>Exploration of image analysis techniques for security applications.</p>
+                        <span class="project-placeholder">Repository link to be added</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Reach out to connect or discuss opportunities.</p>
+                <p>Email: [Insert Email Address]</p>
+                <p>LinkedIn: [Insert LinkedIn Profile URL]</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
